@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>08-T2-Accessible Interactive Map</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 2rem;
+      background-color: #f4faff;
+      color: #222;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2rem;
+      color: #0077cc;
+    }
+    .project-info {
+      margin-top: 1rem;
+      font-weight: bold;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+    .card {
+      background: white;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .card img {
+      width: 100%;
+      max-width: 150px;
+      border-radius: 50%;
+      margin-bottom: 0.5rem;
+    }
+    a.button {
+      display: inline-block;
+      padding: 0.75rem 1rem;
+      margin: 0.25rem 0;
+      background-color: #0077cc;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      text-align: center;
+    }
+    a.button:hover {
+      background-color: #005fa3;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>08-T2 - Accessible Interactive Map</h1>
+    <div class="project-info">
+      Spring 2025 | CS 4850 
+    </div>
+    <div class="project-info">
+      Project Status: 100% Complete | Lines of Code: 3,200+ | Tools/Components: 10+ | Total Man Hours: 400+
+    </div>
+  </header>
+
+  <section class="grid">
+    <!-- Team Bios -->
+    <div class="card">
+      <img src="justinC (1).jpg" alt="Team Member 1">
+      <strong>Justin Connick</strong><br/>
+      UI/UX Designer, Backend Developer
+    </div>
+    <div class="card">
+      <img src="meganI (1).jpg" alt="Team Member 2">
+      <strong>Megan Ingram</strong><br/>
+      Frontend Developer, Documentation
+    </div>
+    <div class="card">
+      <img src="derrickN.jpg" alt="Team Member 3">
+      <strong>Derrick Novak</strong><br/>
+      Lead Backend Developer
+    </div>
+    <div class="card">
+        <img src="spencerW (1).jpg" alt="Team Member 3">
+        <strong>Spencer Williams</strong><br/>
+        Project Manager, Documentation
+    </div>
+    <div class="card">
+        <img src="emilyZ (1).jpg" alt="Team Member 3">
+        <strong>Emily Zhu</strong><br/>
+        Frontend Developer, Backend Developer
+    </div>
+
+    <!-- Documents -->
+    <div class="card">
+      <h3>Final Deliverables</h3>
+      <a class="button" href="final-report.pdf" target="_blank">📄 Final Report (PDF)</a>
+      <a class="button" href="08-T2-AccessibleMap-Requirements.pdf" target="_blank">📄 Requirements</a>
+      <a class="button" href="08-T2-AccessibleMap-Design.pdf" target="_blank">📄 Design Document</a>
+      <a class="button" href="08-T2-STP-STR-Final.pdf" target="_blank">📄 Test Plan & Report</a>
+      <a class="button" href="appendix.pdf" target="_blank">📄 Training & Appendix</a>
+    </div>
+
+    <!-- Links -->
+    <div class="card">
+      <h3>Important Links</h3>
+      <a class="button" href="https://github.com/ADAMapDev/adaMapDevSite" target="_blank">🔗 GitHub Repo</a>
+      <a class="button" href="https://youtube.com/your-presentation-link" target="_blank">🎥 Final Presentation Video</a>
+      <a class="button" href="ADA-001-SkyBlue-AdaMap-SourceCode.zip" target="_blank">📦 Download Source Code</a>
+    </div>
+  </section>
+
+</body>
+</html>
